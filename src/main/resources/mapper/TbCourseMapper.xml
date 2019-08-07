@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.miyako.subject.commons.mapper.TbCourseMapper">
+  <resultMap id="BaseResultMap" type="com.miyako.subject.commons.domain.TbCourse">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="courseNum" jdbcType="VARCHAR" property="coursenum" />
+    <result column="courseCount" jdbcType="INTEGER" property="coursecount" />
+    <result column="teacherId" jdbcType="INTEGER" property="teacherid" />
+    <result column="collegeId" jdbcType="INTEGER" property="collegeid" />
+  </resultMap>
+</mapper>
